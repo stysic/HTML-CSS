@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+    <style>
+        /*SELETORES PERSONALIZADOS
+        #  = id
+        .  = class
+        :  = pseudo-class
+        :: = pseudo-element
+        >  = children
+        */
+        body{
+            font-family: helvetica, sans-serif;
+            background-color: #15171E;
+            color: #dcdcdd;
+        }
+        a{
+            color: #dcdcdd;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        a:visited {
+            color: #ffb400;
+        }
+        a:hover {
+            color: #148eff;
+            text-decoration: underline #148eff;
+        }
+        a:active{
+            color: #ffb400;
+            text-decoration: underline #ffb400;
+        }
+        .especial::before {
+            content: '→';
+        }
+        .especial::after{
+            content: '←';
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Personalizando Links</h1>
+    <ul>
+        <li><a href="https://us.shop.battle.net/pt-br/family/world-of-warcraft" target="_blank" class="especial">Warcraft</a></li>
+        <li><a href="https://us.shop.battle.net/pt-br/family/diablo-iv" target="_blank">Diablo</a></li>
+        <li><a href="https://us.shop.battle.net/pt-br/product/heroes-of-the-storm?p=29489" target="_blank">Heroes of the Storm</a></li>
+    </ul>
+</body>
+</html>

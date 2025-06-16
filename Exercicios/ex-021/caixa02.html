@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping tags</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: #15171e;
+            color: #525358;
+            margin: 0px;
+        }
+        nav{
+            background-color: #15171e;
+            padding: 2px;
+            box-shadow: 5px 3px 7px #15171e3a;
+            border-radius: 4px;
+        }
+        nav > a{
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            margin-right: 30px;
+        }
+        nav > a:hover{
+            text-decoration: underline;
+            
+        }
+        header{
+            background-color: white;
+            padding: 10px;
+            margin: 10px
+        }
+        article{
+            background-color: #52535851;
+            padding: 5px;
+        }
+        article > aside {
+            background-color: #5253587e;
+        }
+        main{
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 4px;
+            box-shadow: 5px 3px 7px #15171e3a;
+        }
+        footer{
+            background-color: #0c0e12;
+            color: white;
+            text-align: center;
+            padding: 4px;
+            margin: 0px;
+        }
+        footer > p{
+            margin: 0px;
+        }
+        div#bola{
+            height: 100px;
+            width: 100px;
+            background-color: #ffb400;
+            margin: 10px;
+            border-radius: 50%;
+            box-shadow: 2px #0c0e1244;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+            <p>Esports wow sendo o melhor jogo</p>
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>Noticía sobre Warcraft</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab dicta dolores nisi omnis, doloremque excepturi accusantium nulla deserunt repellendus eveniet, dolorem, ducimus rem pariatur consequatur. Iste ipsum earum sequi ut!</p>
+                <aside>
+                    <p>Artigo escrito por Arthur Rodrigues</p>
+                </aside>
+            </article>
+            <article>
+
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido por Arthur Rodrigues</p>
+    </footer>
+    <div id="bola"></div>
+</body>
+</html>
