@@ -43,12 +43,14 @@ header > p {
     padding-right: 8px;
     padding-left: 8px;
     margin:auto;
+    padding-bottom: 50;
     text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.353);
 }
 nav{
     background-color: #23252B;
     padding: 16px;
     align: center;
+    margin-top: 16px;
 }
 nav a {
     color: var(--cor6);
