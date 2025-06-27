@@ -8,7 +8,21 @@
         body{
             font-family: Helvetica, sans-serif;
         }
+        caption{
+            font-size: 1.5em;
+            font-weight: bold;
+            padding: 8px;
+            background-color: lightslategray;
+            color: white;
+        }
+         tbody > tr:nth-child(even) {
+            background-color: rgb(255, 255, 255);
+        }
+        tbody > tr:nth-child(odd) {
+            background-color: rgba(209, 207, 207, 0.329);
+        }
         table{
+            position: relative;
             width: 500px;
             border-collapse: collapse;
         }
@@ -19,6 +33,11 @@
         thead, tfoot{
             background-color: darkslategray;
             color: darkorange
+        }
+        thead > tr > th{
+            position: sticky;
+            top: -2px;
+            background-color: darkslategray;
         }
         td.num{
             text-align: right;
@@ -37,10 +56,11 @@
             TR, TD, TH
     -->
     <table>
+        <caption>Population data</caption>
         <thead>
             <tr>
-                <th>Estado</th>
-                <th>População</th>
+                <th scope="col">Estado</th>
+                <th scope="col" style="width: 40px;">População</th>
             </tr>
         </thead>
         <tbody>
@@ -72,13 +92,102 @@
                 <td>Paraiba</td>
                 <td class="num">334.874.057</td>
             </tr>
+                        <tr>
+                <td>São Paulo</td>
+                <td class="num">45.919.049</td>
+            </tr>
+            <tr>
+                <td>Minas Gerais</td>
+                <td class="num">47.919.049</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td class="num">795.876.049</td>
+            </tr>
+            <tr>
+                <td>Brasilia</td>
+                <td class="num">875.876.044</td>
+            </tr>
+            <tr>
+                <td>Rio Grande do Sul</td>
+                <td class="num">427.876.048</td>
+            </tr>
+            <tr>
+                <td>Santa Catarina</td>
+                <td class="num">676.496.097</td>
+            </tr>
+            <tr>
+                <td>Paraiba</td>
+                <td class="num">334.874.057</td>
+            </tr>
+                        <tr>
+                <td>São Paulo</td>
+                <td class="num">45.919.049</td>
+            </tr>
+            <tr>
+                <td>Minas Gerais</td>
+                <td class="num">47.919.049</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td class="num">795.876.049</td>
+            </tr>
+            <tr>
+                <td>Brasilia</td>
+                <td class="num">875.876.044</td>
+            </tr>
+            <tr>
+                <td>Rio Grande do Sul</td>
+                <td class="num">427.876.048</td>
+            </tr>
+            <tr>
+                <td>Santa Catarina</td>
+                <td class="num">676.496.097</td>
+            </tr>
+            <tr>
+                <td>Paraiba</td>
+                <td class="num">334.874.057</td>
+            </tr>
+                        <tr>
+                <td>São Paulo</td>
+                <td class="num">45.919.049</td>
+            </tr>
+            <tr>
+                <td>Minas Gerais</td>
+                <td class="num">47.919.049</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td class="num">795.876.049</td>
+            </tr>
+            <tr>
+                <td>Brasilia</td>
+                <td class="num">875.876.044</td>
+            </tr>
+            <tr>
+                <td>Rio Grande do Sul</td>
+                <td class="num">427.876.048</td>
+            </tr>
+            <tr>
+                <td>Santa Catarina</td>
+                <td class="num">676.496.097</td>
+            </tr>
+            <tr>
+                <td>Paraiba</td>
+                <td class="num">334.874.057</td>
+            </tr>
         </tbody>
         <tfoot>
             <tr>
-                <th>Total de Habitantes</th>
+                <th scope="row">Total de Habitantes</th>
                 <td class="num"><strong>207.147.127</strong></td>
             </tr>
+            
         </tfoot>
     </table>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Optio minima assumenda eaque voluptas vel ullam id accusamus voluptatem, ducimus debitis odio fugit natus quia possimus, nostrum animi accusantium deleniti velit. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dignissimos voluptates optio dolorum ipsum fugit ab, quasi quam eligendi doloremque aut quos ratione cumque? Eaque dolore nisi quisquam, repudiandae eos dolor?Lorem ipsum dolor sit, amet consectetur adipisicing elit. Commodi, at dolore. Sint, impedit doloremque, quia error ipsum ducimus laborum quae sunt praesentium quos, commodi possimus! Adipisci sed culpa enim perspiciatis. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dicta iure unde in blanditiis harum facere quo enim ipsa eligendi. Vitae, eaque fugit cumque natus minus perferendis perspiciatis dolore id facere.</p>
+     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Optio minima assumenda eaque voluptas vel ullam id accusamus voluptatem, ducimus debitis odio fugit natus quia possimus, nostrum animi accusantium deleniti velit. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dignissimos voluptates optio dolorum ipsum fugit ab, quasi quam eligendi doloremque aut quos ratione cumque? Eaque dolore nisi quisquam, repudiandae eos dolor?Lorem ipsum dolor sit, amet consectetur adipisicing elit. Commodi, at dolore. Sint, impedit doloremque, quia error ipsum ducimus laborum quae sunt praesentium quos, commodi possimus! Adipisci sed culpa enim perspiciatis. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dicta iure unde in blanditiis harum facere quo enim ipsa eligendi. Vitae, eaque fugit cumque natus minus perferendis perspiciatis dolore id facere.</p>
+      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Optio minima assumenda eaque voluptas vel ullam id accusamus voluptatem, ducimus debitis odio fugit natus quia possimus, nostrum animi accusantium deleniti velit. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dignissimos voluptates optio dolorum ipsum fugit ab, quasi quam eligendi doloremque aut quos ratione cumque? Eaque dolore nisi quisquam, repudiandae eos dolor?Lorem ipsum dolor sit, amet consectetur adipisicing elit. Commodi, at dolore. Sint, impedit doloremque, quia error ipsum ducimus laborum quae sunt praesentium quos, commodi possimus! Adipisci sed culpa enim perspiciatis. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dicta iure unde in blanditiis harum facere quo enim ipsa eligendi. Vitae, eaque fugit cumque natus minus perferendis perspiciatis dolore id facere.</p>
+      
 </body>
 </html>
