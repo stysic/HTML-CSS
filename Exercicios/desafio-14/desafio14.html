@@ -3,38 +3,56 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Desafio 14 prática tabelas</title>
-  <style>
-    body{
-        font-family: Arial, Helvetica, sans-serif;
-    }
-    table{
-        width: 400px;
-        height: 40px;
-        border-collapse: collapse;
-        
-    }
-    th, td{
-        border: 1px solid black;
-        padding: 10px;
-
-    }
-
-  </style>
+    <title>Aprendiz em tabela</title>
+    <style>
+        p{
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 1.5em;
+            background-color: darkorange;
+            padding: 8px;
+        }
+        body{font-family: Arial, Helvetica, sans-serif;}
+        table{
+            width: 400px;
+            border-collapse: collapse;
+            padding: 8px;
+            text-align: center;
+        }
+        td{
+            border: 1px solid black;
+        }
+    </style>
 </head>
 <body>
+   <p>Há uma hierarquia, iniciando com <strong><abbr title="TABELA">TABLE, </abbr></strong>dentro dela vem <abbr title="Linha de tabela"><strong>TABLE ROW</strong></abbr> e dentro dessa linha de tabela vem o <strong><abbr title="Cabeçalho da Tabela">TABELE HEADER</abbr></strong> nesse mesmo level de hierarquia vem o <strong><abbr title="dados da">TABLE DATA</abbr></strong></p>
+
+   <p>vamos ser mais claros: dentro de uma table vem as tr - table rows ( linhas de tabela ) elas são as horizontáis, e nelas há dados.
+   </p>
+
+   <p>UMA TR (LINHA DA TABELA HORIZONTAL) PODE HAVER VÁRIOS DADOS, E ELA CRESCE CONFORME VOCÊ VAI ADICIONANDO AS TH/TD</p>
+    <p>
+    E para crescer de forma Vertical, é adicionado as tr uma em baixo da outra
+    </p>
+    <p>
+        quanto mais TR mais linhas verticais são adicionadas
+    </p>
     <table>
-    <thead>
-        <th>01</th>
-        <th>02</th>
-        <th>03</th>
-        <th>04</th>
-        <th>05</th>
         <tr>
-            <th>1</th>
-            <th>2</th>
+            <td>A1</td>
+            <td>A2</td>
+            <td>A3</td>
         </tr>
-    </thead>
-</table>
+        <tr>
+            <td>B1</td>
+            <td>B2</td>
+            <td>B3</td>
+        </tr>
+        <tr>
+            <td>C1</td>
+            <td>C2</td>
+            <td>C3</td>
+        </tr>
+        
+    </table>
 </body>
 </html>
