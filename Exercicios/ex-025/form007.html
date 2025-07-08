@@ -6,6 +6,41 @@
     <title>Form sem utilizar input</title>
 </head>
 <body>
-    
+    <h1>Exemplo form 07</h1>
+    <form action="cadastro.php" method="post" autocomplete="on">
+        <p>
+            <label for="iest">Estado</label>
+            <select name="Estado" id="iest">
+                <option value="" selected>---Escolha---</option>
+                <optgroup label="Regial Sul">
+                    <option value="SP">São Paulo</option>
+                    <option value="RJ">Rio de Janeiro</option>
+                    <option value="PB" >Paraíba</option>
+                </optgroup>
+                <optgroup label="Regial Nordeste">
+                    <option value="CN">Canadá</option>
+                </optgroup>
+            </select>
+        </p>
+        <p>
+            <label for="iprof">Profissão</label>
+            <input type="text" name="prof" id="iprof" list="lstprof">
+            <datalist id="lstprof">
+                <option value="adm">Administração</option>
+                <option value="GD">Designer Gráfico</option>
+                <option value="DEV">Develop</option>
+            </datalist>
+        </p>
+        <p>
+            <label for="imsg">Mensagem:</label> <br>
+            <textarea name="Mensagem" id="imsg" cols="40" rows="8">
+
+            </textarea>
+        </p>
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+    </form>
 </body>
 </html>
