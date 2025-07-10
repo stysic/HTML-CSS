@@ -2,5 +2,6 @@
 /* Aparelho vertical */
 
 body {
-    background-color: darkred;
+    background-image: url(../imagens/cev-portrait.jpg);
+    background-position: center bottom;
 }
