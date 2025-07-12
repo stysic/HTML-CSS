@@ -1,0 +1,60 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-image: url('dimensions.jpeg'); /* Imagem de fundo */
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.login-container {
+    background-color: rgba(0, 0, 0, 0.7); /*Fundo semi-transparente */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    text-align: center;
+    width: 300px;
+}
+
+.logo {
+    width: 150px;
+    margin-bottom: 20px;
+}
+
+.input-field {
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+.login-button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.login-button:hover {
+    background-color: #0056b3;
+}
+
+.forgot-password, .register {
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    margin-top: 10px;
+}
+
+.forgot-password:hover, .register:hover {
+    text-decoration: underline;
+    color: #0056b3;
+}
