@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flaxbox</title>
+    <style>
+    div.conteiner {
+        background-color: lightsalmon;
+        display: flex;
+        flex-flow: row nowrap;
+    }
+    div.item {
+        background-color: lightblue;
+        border: 1px solid black;
+        text-align: center;
+        flex-basis: 200px;
+        flex-shrink: 1;
+        flex-grow: 1;
+    }
+    </style>
+</head>
+<body>
+    <div class="conteiner">
+        <div class="item">A</div>
+        <div class="item">B</div>
+        <div class="item">C</div>
+
+    </div>
+    <!-- 
+    Para ajustar os elementos a tag da div que você queira que contenha os items chamada pai; deve ser colocado uma class e no css dessa classe é necessário colocar um display, chamado flex.
+    
+    Já para a tag das divs dentro do pai, precisam ser colocada uma class e no css dessa class deve ser colocado um display  auto 
+    -->
+
+</body>
+</html>
